@@ -1,0 +1,134 @@
+*,html {
+    margin :0;
+    padding:0;
+}
+
+
+div {
+    background-color:rgb(136, 212, 21) height 100px;
+}
+
+/* PLEASE READ THIS FOR MY FUTURE */
+/*
+   Jangan menambahkan ; (titik koma) pada akhir "}" kurung kurawal
+   karena akan menyebabkan error pada saat build.
+*/
+
+.Container-navbar {
+    background-color: #333;
+    width:100%;
+    height:12vh;
+
+}
+
+.a-navbar {
+    color:white;
+    text-decoration:none;
+    
+}
+
+.a-content {
+    background-color:white;
+    color:black;
+    text-decoration:none;
+    font-size:30px;
+    width: 480px;
+    height: 360px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 80px;
+
+    box-shadow:10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* JUSTIFY CONTENT */
+/* - space-between
+   - space-evenly
+   - center*/
+
+/* BOX SHADOW */
+/* Search on browser, just type "box Shadow Css Generator"
+   Or visit https://cssgenerator.org/box-shadow-css-generator.html */
+
+   .a-content:hover {
+    background-color: rgb(15, 108, 124);
+    color: white;
+    transition: .1s;
+    transition-delay: .1s;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   }
+
+
+.li-navbar:hover {
+    background-color: #555555;
+    transition:.5s ease-in-out;
+    transition-delay:.3s;
+    border-radius: 8px;
+    height:30px;
+    font-style:underline;
+    text-decoration:underline ;
+
+}
+
+.Container-content{ 
+    height: 78vh;
+    background-color:rgb(125, 164, 201);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+ }
+
+ .Container-content:hover {
+    background-color: rgb(36, 167, 190);
+    transition: .5s ;
+    transition-delay: .3s;
+    border-radius: 8px;
+ }
+
+  .container-footer {
+    height:10vh;
+    background-color: #333;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.ul-navbar {
+    display:flex;
+    height:70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type:none;
+    color:white;
+    padding:20px;
+    margin:15px;
+    font-size:30px;
+} 
+ /* list-style-type: none; menghilangkan bullet point pada list */
+
+  .Img-content{ 
+    width:50%;
+    height:50%;
+    justify-content: left;
+
+ }
+
+ .h1-footer {
+    font-size:20px;
+    font-style: italic;
+    font-weight: lighter;
+    font-style:times new roman;
+    color: white;
+
+ }
+
+
